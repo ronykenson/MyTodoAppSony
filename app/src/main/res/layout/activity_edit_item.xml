@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditItemActivity">
+
+    <Button
+        android:id="@+id/btnSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSaveButton"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Enter"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/Txtview"
+        android:layout_width="192dp"
+        android:layout_height="38dp"
+        android:text="Edit Items :"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="13dp" />
+
+</android.support.constraint.ConstraintLayout>

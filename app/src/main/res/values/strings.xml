@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyTodoAppSony</string>
+    <string name="add">Add</string>
+    <string name="add_item">add a new item...</string>
+    <string name="Add">Add new text</string>
+    <string name="Add1">Edit New</string>
+    <string name="Save">Save</string>
+    <string name="EditText">Edit Text</string>
+    <string name="btnSaveButton">Save</string>
+    <string name="Enter">Enter New Items</string>
+</resources>
